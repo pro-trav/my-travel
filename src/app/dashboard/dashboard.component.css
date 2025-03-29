@@ -1,0 +1,24 @@
+.link-card {
+  background: #ffffff;
+  width: 18rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
+a.link-card {
+  text-decoration: none;
+}
+a.link-card:hover,
+a.link-card:focus {
+  text-decoration: underline;
+}
+
+.shadow-box {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.shadow-box:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
